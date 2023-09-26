@@ -1265,6 +1265,18 @@ footer p a {
 }
 
 
+@media screen and (min-width: 320px) {
+
+    .waves-icon {
+        width: 9rem;
+        position: absolute;
+        right: 0.25rem;
+        top: 5.08rem;
+    
+    }
+
+}
+
 @media screen and (min-width: 425px) {
 
    
