@@ -235,7 +235,19 @@
     
 </footer>
 
-<script src="script.js"></script>
+<script>
+
+    document.querySelector("a.lets-talk-bt").addEventListener("click", function(event){
+    document.getElementById("sideNavigation").style.width = "100%";
+    document.getElementById("main").style.marginRight = "250px";
+  });
+  
+  document.querySelector("a.close-btn").addEventListener("click", function(event){
+    document.getElementById("sideNavigation").style.width = "0";
+    document.getElementById("main").style.marginRight = "0";
+  });
+    
+</script>
 
 </body>
 
