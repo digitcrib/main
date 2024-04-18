@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/icons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" href="img/icons/android-chrome-512x512.png" sizes="512x512">
+    <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+    <link rel="icon" href="img/icons/favicon.ico">
+</head>
+<body>
+<header>
+    
+     <!-- |||||||||||||||||||||||||||
+    |||||||||||||||||||||||||||||
+            Navigation bar     
+    |||||||||||||||||||||||||||||
+    ||||||||||||||||||||||||||||| -->
+
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+        </div>
+        <a href="./index.html"><img class="d-logo" src="./img/header/digitcrib-logo.svg" alt="DC-LOGO"></a>
+        <nav class="nav" id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/ppc.html">PPC</a></li>
+            <li><a href="pages/seo.html">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+        <a id="d-contact" href="#contact">Contact</a>
+    </div>
+    
+    <div class="menu-bg" id="menu-bg"></div>
+
+      <!-- ............................................... -->
+
+    <div id="sideNavigation" class="sidenav">
+        <a href="#" class="close-btn main-nav">&times;</a>
+
+        <p>LET’S BUILD SOMETHING GREAT TOGETHER</p>
+
+        <div class="input-fields"  >
+            <form action="https://formspree.io/f/mrgwlpvd" id="contact-form" method="POST">
+            <input type="text" id="Name" name="Name" placeholder="Name">
+            <input type="tel" id="Phone Number" name="Phone Number" placeholder="Phone Number">
+            <input type="text" id="Email" name="Email" placeholder="Email">
+            <textarea type="text" id="Project Details" name="Project Details" placeholder="Project Details" rows="10" class="Project-textarea"></textarea>
+
+            <input type="submit" value="Submit" id="btnsubmit"  onclick="submitForm()" class="submit-button">Send Message</input>
+
+        </div>
+
+        <p class="privacy-line">By filling out the form you agree  to our <a href="">Privacy Policy.</a></p>
+
+        <p class="or">OR</p>
+
+        <p  class="digitcrib-email"><img src="img/home/bend-arrow.svg" alt=""><a href="mailto:digitcrib@gmail.com?subject=Hello there &#x1F44B;, how can we help you?">digitcrib@gmail.com</a></p>
+
+    </div>    
+
+</header>
+
+<section class="about-us-conatiner-1">
+
+    <h1 class="au-p-1">Everything you need to get attention of your audience</h1>
+
+    <p class="au-p-2">Our digital agency helps client develop, implement and maintain successful digital marketing strategies across all channels. Also work with you to build your website and create online bussinesses that grow.</p>
+
+</section>
+
+<section class="about-us-conatiner-2-cnt">
+
+    <section class="about-us-conatiner-2">
+
+        <img class="trek-guy" src="img/about-us/trek-guy.svg" alt="Trek guy on mountain">
+
+        <div class="h-p">
+            <h2 class="au-p-3">MEET <br> THE FOUNDERS</h2>
+
+            <p class="au-p-4">To become the company that customers want, it takes a group of passionate people. Get to know the people who lead.</p>
+        </div>
+
+        <div class="scroll-cards">
+
+            <div class="scroll-card">
+
+                <div class="blur-ball-cnt">
+                    <div class="blur-ball"></div>
+                </div>
+
+                <img class="profile-box" id="pratham" src="img/about-us/pratham.jpeg" alt="">
+
+                <div class="scroll-card-info">
+                    <p class="sc-p1">PRATHAM GUPTA</p>
+
+                    <p class="sc-p2">Co-Founder & CEO</p>
+
+                    <p class="sc-p3">Meet Pratham Gupta, our multi-talented maestro! 👨‍💼🎨 As the CEO and the artistic visionary behind our website's stunning UI/UX, Pratham wears many hats and looks good in all of them! When he's not steering the ship of innovation, you'll find him sketching digital dreams, or trying to figure out if there's a shortcut to creating world-class designs. </p>
+
+                    <p class="d-sc-p3">Meet Pratham Gupta, our multi-talented maestro! As the CEO and the artistic visionary behind our website's stunning UI/UX, Pratham wears many hats and looks good in all of them!</p>
+
+                    <div class="scroll-card-social">
+                        <a href="https://www.linkedin.com/in/pratham-gupta-digitcrib" target="_blank"><img src="img/about-us/linkendln.svg" alt=""></a>
+                        <a href="https://www.x.com/why_pratham/" target="_blank"><img src="img/about-us/twitterx.svg" id="twitterx"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="scroll-card">
+
+                <div class="blur-ball-cnt">
+                    <div class="blur-ball-2"></div>
+                </div>
+
+                <img class="profile-box" src="img/about-us/divyansh-thakur.jpeg" alt="">
+
+                <div class="scroll-card-info">
+                    <p class="sc-p1">DIVYANSH THAKUR</p>
+        
+                    <p class="sc-p2">Co-Founder & CTO</p>
+            
+                    <p class="sc-p3">Say hello to Divyansh Thakur, our coding maestro! 👨‍💻 He's the brains behind the scenes, making sure our website runs like a well-oiled machine. When he's not crafting pixel-perfect code, you'll catch him in a digital dance-off with bugs or on a quest to find the best cup of coffee in cyberspace. </p>
+
+                    <p class="d-sc-p3">Say hello to Divyansh Thakur, our coding maestro! He's the brains behind the scenes, making sure our website runs like a well-oiled machine.</p>
+
+                    <div class="scroll-card-social">
+                        <a href="https://www.linkedin.com/in/divyanshthakurx/" target="_blank"><img src="img/about-us/linkendln.svg" alt=""></a>
+                        <a href="https://x.com/divyanshthakurx?t=ip_J7_m6AYQD8ih9OUBoFQ&s=09" target="_blank"><img src="img/about-us/twitterx.svg" id="twitterx" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="scroll-card">
+
+                <div class="blur-ball-cnt">
+                    <div class="blur-ball-3"></div>
+                </div>
+
+                <img class="profile-box" src="img/about-us/ayush-joshi.jpg" alt="">
+
+                <div class="scroll-card-info">
+            
+                    <p class="sc-p1">AYUSH JOSHI</p>
+                
+                    <p class="sc-p2">Co-Founder & Web Designer</p>
+                
+                    <p class="sc-p3">Meet Ayush Joshi, the coding extraordinaire in our digital dojo! 💻 As our resident back-end ninja, Ayush stealthily crafts the web magic that powers our site. When he's not taming the bytes, he's exploring the matrix for hidden easter eggs or deciphering the secret language of algorithms. 
+                    </p>
+
+                    <p class="d-sc-p3">Meet Ayush Joshi, the coding extraordinaire in our digital dojo! As our resident back-end ninja, Ayush stealthily crafts the web magic that powers our site.
+                    </p>
+                
+                    <div class="scroll-card-social">
+                        <a href="https://www.linkedin.com/in/ayush-joshi-b3b07826b" target="_blank"><img src="img/about-us/linkendln.svg" alt=""></a>
+                        <a href="https://www.instagram.com/flowrics_joshi/" target="_blank"><img src="img/about-us/instagram.svg" alt=""></a>
+                        <a href="https://x.com/flowrics" target="_blank"><img src="img/about-us/twitterx.svg" id="twitterx" alt=""></a>
+                    </div>
+
+                </div>
+
+            </div>
+        
+            <div class="scroll-card">
+
+                <div class="blur-ball-cnt">
+                    <div class="blur-ball-4"></div>
+                </div>
+
+                <img class="profile-box" src="img/about-us/abhinav-bhardwaj2.jpeg" alt="">
+
+                <div class="scroll-card-info">
+                
+                    <p class="sc-p1">ABHINAV BHARADWAJ</p>
+                    
+                    <p class="sc-p2">Co-Founder & UI/UX Designer</p>
+                    
+                    <p class="sc-p3">Introducing Abhinav Bhardwaj, the Picasso of Pixels! 🎨 As our resident UI/UX virtuoso, Abhinav conjures up designs that are as visually stunning as they are user-friendly. When he's not pushing pixels, he's on a quest to find the perfect blend of aesthetics and functionality, or perhaps just a really good cup of coffee.
+                    </p>
+
+                    <p class="d-sc-p3">Introducing Abhinav Bhardwaj, the Picasso of Pixels! As our resident UI/UX virtuoso, Abhinav conjures up designs that are as visually stunning as they are user-friendly.
+                    </p>
+                    
+                    <div class="scroll-card-social">
+                        <a href="https://www.linkedin.com/in/abhinav-bhardwaj-584285293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="img/about-us/linkendln.svg" alt="LinkedIn Button"></a>
+                        <a href="https://instagram.com/abhinav.bhxrdwxj?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="img/about-us/instagram.svg" alt="Instagram Button"></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-card">
+
+                <div class="blur-ball-cnt">
+                    <div class="blur-ball-5"></div>
+                </div>
+
+                <img class="profile-box" src="img/about-us/vivek-sharma.jpeg" alt="">
+
+                <div class="scroll-card-info">
+            
+                    <p class="sc-p1">VIVEK SHARMA</p>
+                
+                    <p class="sc-p2">Content Writer & SEO Expert</p>
+                
+                    <p class="sc-p3">Hi good people, I'm a word wizard 🧙‍♂️ that evokes creativity into compelling content. With a keyboard as my wand, I weave words leaving readers both mesmerized and eager for more. </p>
+
+                    <p class="d-sc-p3">Hi good people, I'm a word wizar! that evokes creativity into compelling content. With a keyboard as my wand, I weave words leaving readers both mesmerized and eager for more. </p>
+                
+                    <div class="scroll-card-social">
+                        <a href="https://www.linkedin.com/in/vivek-sharma-951205287/" target="_blank"><img src="img/about-us/linkendln.svg" alt=""></a>
+                        <a href="https://instagram.com/realviveksharma/" target="_blank"><img src="img/about-us/instagram.svg" alt=""></a>
+                    </div>
+                
+                </div>
+
+            </div>
+            
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="d-add-2">
+        <h class="d-add-2-title">Powerful ideas & sales acceleration</h>
+        <p class="d-add-2-disc">We are web-development firm specializing in digital products. We build beautiful, functional and cross-platform solution that are accessible to all.</p>
+    </section>
+
+    <section class="think-beyond-the-waves" id="contact">
+
+        <div class="container-box-1">
+
+            <p class="tbtw-p-1">Think beyond the waves</p>
+
+            <p class="tbtw-p-2">Ask about DigitCrib products, pricing, implementation, or anything else, Our team is standing by ready to help</p>
+
+            <a class="lets-talk-bt">
+                <img src="img/home/lets-talk.svg" alt="Lets Talk">
+            </a>
+
+        </div>
+
+        <div class="container-box-2">
+
+            <div class="social-buttons">
+
+                
+                <a href="https://instagram.com/digitcrib/" target="_blank">
+                    <img src="img/footer/instagram-line.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/company/digitcrib/" target="_blank">
+                    <img src="img/footer/linkedin-fill.svg" alt="">
+                </a>
+                <a href="https://twitter.com/digitcrib/" target="_blank">
+                    <img src="img/footer/twitter-fill.svg" alt="">
+                </a>
+
+            </div>
+
+            <div>
+
+                <p class="tbtw-p-3">DIGITCRIB</p>
+                <p class="tbtw-p-4">We built an elegant solution. Our team created a fully integrated website solution for vaastuarcs</p>
+
+            </div>
+
+        </div>
+
+    </section>
+</section>
+
+<footer>
+    
+    <p class="imprint">Imprint</p>
+    
+    <p class="copywrite">Copyright &copy; 2023 DigitCrib. All rights reserved</p>
+    
+    <p><a href="pages/privacy_policy.html">Privacy</a></p>
+    
+</footer>
+
+<script src="script.js"></script>
+<script>
+
+    document.querySelector("a.lets-talk-bt").addEventListener("click", function(event){
+    document.getElementById("sideNavigation").style.width = "100%";
+    document.getElementById("main").style.marginRight = "250px";
+  });
+  
+  document.querySelector("a.close-btn").addEventListener("click", function(event){
+    document.getElementById("sideNavigation").style.width = "0";
+    document.getElementById("main").style.marginRight = "0";
+  });
+    
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitCrib</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/icons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" href="img/icons/android-chrome-512x512.png" sizes="512x512">
+    <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+    <link rel="icon" href="img/icons/favicon.ico">
+</head>
+<body>
+
+<header>
+
+<!-- ||||||||||||||||||||||||
+|||||||||||||||||||||||||||||
+        Navigation bar     
+|||||||||||||||||||||||||||||
+||||||||||||||||||||||||| -->
+
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <a href="">
+            <img class="d-logo" src="./img/header/digitcrib-logo.svg" alt="DC-LOGO">
+        </a>
+        <nav class="nav" id="nav">
+            <ul>
+                <li class="nav-home"><a href="index.html">Home</a></li>
+                <li class="nav-projects"><a href="#projects">Projects</a></li>
+                <li><a href="pages/seo.html">Services</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a class="nav-contact" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a id="d-contact" href="#contact">Contact</a>
+    </div>
+    
+    <div class="menu-bg" id="menu-bg"></div>
+
+    <!-- ............................................... -->
+
+    <div id="sideNavigation" class="sidenav">
+        <a href="#" class="close-btn main-nav">&times;</a>
+
+        <p>LET’S BUILD SOMETHING GREAT TOGETHER</p>
+
+        <div class="input-fields"  >
+            <form action="https://formspree.io/f/mrgwlpvd" id="contact-form" method="POST">
+            <input type="text" id="Name" name="Name" placeholder="Name">
+            <input type="tel" id="Phone Number" name="Phone Number" placeholder="Phone Number">
+            <input type="text" id="Email" name="Email" placeholder="Email">
+            <textarea type="text" id="Project Details" name="Project Details" placeholder="Project Details" rows="10" class="Project-textarea"></textarea>
+
+            <input type="submit" value="Submit" id="btnsubmit"  onclick="submitForm()" class="submit-button">Send Message</input>
+
+        </div>
+
+        <p class="privacy-line">By filling out the form you agree  to our <a href="">Privacy Policy.</a></p>
+
+        <p class="or">OR</p>
+
+        <p  class="digitcrib-email"><img src="img/home/bend-arrow.svg" alt=""><a href="mailto:digitcrib@gmail.com?subject=Hello there &#x1F44B;, how can we help you?">digitcrib@gmail.com</a></p>
+
+    </div>
+
+</header>
+
+<div class="body-wrapper">
+
+        <!-- ||||||||||||||||||||||||
+    |||||||||||||||||||||||||||||
+        Sharing your Vision     
+    |||||||||||||||||||||||||||||
+    ||||||||||||||||||||||||||||| -->
+
+    <section class="sharing-your-vision">
+
+        <div class="wrapper-1" >
+
+            <h1 class="p-1">SHARING <br><img class="waves-icon" src="img/home/waves-icon.svg" alt="waves-icon"> <img class="d-waves-icon" src="img/home/d-waves-icon.svg" alt="waves-icon"> Y<span>O<img class="d-crew-mob-logo" src="img/header/d-HeroSection.svg" alt="Crew Logo"></span>UR VISION</h1>
+            
+            <div class="d-wrapper">
+                <p class="p-2">We're in the business of making you stand out in the digital world. A digital marketing agency focused on web</p>
+                
+                <div class="d-socials">
+                    <a class="social-button"> 
+                            <img src="img/home/getintouch&arrowgrowth.svg" alt="Growth Arrow">
+                    </a>
+                    <div class="d-social-links-wrapper">
+                        <a href="https://instagram.com/digitcrib/" class="d-social-links" target="_blank"><img src="img/footer/instagram-line.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/company/digitcrib/" class="d-social-links" target="_blank"><img src="img/footer/linkedin-fill.svg" alt=""></a>
+                        <a href="https://twitter.com/digitcrib/" class="d-social-links" target="_blank"><img src="img/footer/twitter-fill.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="crew-mob-logo-wrapper">
+            <img class="crew-mob-logo" src="img/home/crew-mob.svg" alt="Crew Logo">
+        </div>
+
+        <div class="ribbon_out">
+            <div class="ribbon-container">
+                <div class="ribbon-1">
+                    <img class="world-icon" src="img/home/world.svg" alt="Globe Icon">
+                    &emsp;Digital Agency Based In Shimla, Himachal Pradesh, India&emsp;
+                    <img class="indian-flag" src="img/home/India.svg" alt="Indian Flag">
+                </div>
+                <div class="ribbon-1">
+                    <img class="world-icon" src="img/home/world.svg" alt="Globe Icon">
+                    &emsp;Digital Agency Based In Shimla, Himachal Pradesh, India&emsp;
+                    <img class="indian-flag" src="img/home/India.svg" alt="Indian Flag">
+                </div>
+                <div class="ribbon-1">
+                    <img class="world-icon" src="img/home/world.svg" alt="Globe Icon">
+                    &emsp;Digital Agency Based In Shimla, Himachal Pradesh, India&emsp;
+                    <img class="indian-flag" src="img/home/India.svg" alt="Indian Flag">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ||||||||||||||||||||||
+    |||||||||||||||||||||||||||
+            Our Services 
+    |||||||||||||||||||||||||||
+    ||||||||||||||||||||||||||| -->
+    
+    <section class="services">
+        <h2 class="services-title">OUR SERVICES</h2>
+        <div class="services-pbwrapper">
+            <p class="services-para">Every one of us loves something different. So, explore the world through the lens of our visual capabilities, and find what you love.</p>
+            <div class="services-bwrapper">
+                <div class="mob-service-div">
+                    <a class="services-buttons design-service_button" onclick="design_services()">DESIGN</a>
+                    <div class="services-container design-services">
+
+                        <img src="./img/our-services/seo-vector-1.svg" class="service-img-1" alt="service">
+
+                        <a class="services-service-wrapper">
+            
+                            <p class="services-service">UI/UX Design</p>
+                            <span class="arrow"> &#8599;</span>
+                            <div class="card-container">
+                                <img src="./img/our-services/design-vector-1.svg" class="card" alt="UI/UX Design">
+                            </div>
+                
+                        </a>
+            
+                        <a href="custom-web-development.html" class="services-service-wrapper">
+            
+                            <p class="services-service">Web Design</p>
+                            <span class="arrow"> &#8599;</span>
+                            <div class="card-container">
+                                <img src="./img/our-services/design-vector-2.svg" alt="Web Design" class="card">
+                            </div>
+            
+                        </a>
+            
+                        <a href="custom-web-development.html" class="services-service-wrapper">
+            
+                            <p class="services-service">Mobile Design</p>
+                            <span class="arrow"> &#8599;</span>
+                            <div class="card-container">
+                                <img src="./img/our-services/design-vector-3.svg" class="card" alt="Mobile Design">
+                            </div>
+            
+                        </a>
+            
+                    </div>
+                </div>
+                <div class="mob-service-div">
+                    <a class="services-buttons development-service_button" onclick="development_services()">DEVELOPMENT</a>
+                    <div class="services-container development-services">
+
+                        <img src="./img/our-services/seo-vector-2.svg" class="service-img-2" alt="service">
+
+                        <a href="ecommerce-web-design.html" class="services-service-wrapper">
+            
+                            <p class="services-service">E-Commerce</p>
+                            <span class="arrow"> &#8599;</span>
+                            <div class="card-container">
+                                <img src="./img/our-services/development-vector-1.svg" class="card" alt="E-Commerce">
+                            </div>
+            
+                        </a>
+                        
+                        <a class="services-service-wrapper">
+            
+                            <p class="services-service">SAAS</p>
+                            <span class="arrow"> &#8599;</span>
+                            <div class="card-container">
+                                <img src="./img/our-services/development-vector-2.svg" alt="SAAS" class="card">
+                            </div>
+            
+                        </a>
+            
+                        <a href="custom-web-development.html" class="services-service-wrapper">
+            
+                            <p class="services-service">Creative static website</p>
+                            <span class="arrow"> &#8599;</span>
+                            <div class="card-container">
+                                <img src="./img/our-services/development-vector-3.svg" class="card" alt="Creative static website">
+                            </div>
+            
+                        </a>
+            
+                        <a href="custom-web-development.html" class="services-service-wrapper">
+            
+                            <p class="services-service">Dynamic Website</p>
+                            <span class="arrow"> &#8599;</span>
+                            <div class="card-container">
+                                <img src="./img/our-services/development-vector-4.svg" class="card" alt="Dynamic Website">
+                            </div>
+            
+                        </a>
+            
+                    </div>
+                </div>
+                <div class="mob-service-div">
+                    <a class="services-buttons digital-marketing-service_button" onclick="dm_services()">DIGITAL MARKETING</a>
+                    <div class="services-container digital-marketing-services">
+
+                        <img src="./img/our-services/seo-vector-3.svg" class="service-img-3" alt="service">
+
+                        <a href="pages/ppc.html" class="services-service-wrapper">
+            
+                            <p class="services-service">PPC</p>
+                            <span class="arrow"> &#8599;</span>
+                            <div class="card-container">
+                                <img src="./img/our-services/seo-vector-1.svg" class="card" alt="PPC">
+                            </div>
+            
+                        </a>
+            
+                        <a href="pages/sem.html" class="services-service-wrapper">
+            
+                            <p class="services-service">Search Engine Marketing</p>
+                            <span class="arrow"> &#8599;</span>
+                            <div class="card-container">
+                                <img src="./img/our-services/seo-vector-1.svg" class="card" alt="Search Engine Marketing">
+                            </div>
+            
+                        </a>
+
+                        <a href="pages/seo.html" class="services-service-wrapper">
+            
+                            <p class="services-service">SEO Strategy</p>
+                            <span class="arrow"> &#8599;</span>
+                            <div class="card-container">
+                                <img src="./img/our-services/seo-vector-1.svg" class="card" alt="SEO Strategy">
+                            </div>
+            
+                        </a>
+            
+                        <a class="services-service-wrapper">
+            
+                            <p class="services-service">Website Analysis</p>
+                            <span class="arrow"> &#8599;</span>
+                            <div class="card-container">
+                                <img src="./img/our-services/seo-vector-2.svg" class="card" alt="Website Analysis">
+                            </div>
+                            
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="d-service-div">
+                    <a class="services-buttons design-service-button" onclick="d_design_services()">DESIGN</a>
+                </div>
+                <div class="d-service-div">
+                    <a class="services-buttons development-service-button" onclick="d_development_services()">DEVELOPMENT</a>
+                </div>
+                <div class="d-service-div">
+                    <a class="services-buttons
+                    dm-service-button" onclick="d_dm_services()">DIGITAL MARKETING</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-services-wrapper">
+
+            <div class="d-services-container d-design-services">
+
+                <a href="pages/seo.html" class="d-services-service-wrapper">
+    
+                    <p class="d-services-service" id="purple-dot">UI/UX Design</p>
+                    <span class="d-arrow" id="purple-arrow"> &#8599;</span>
+
+                    <div class="card-container">
+                        <img src="./img/our-services/design-vector-1.svg" class="card" alt="UI/UX Design">
+                    </div>
+                </a>
+
+    
+            </div>
+
+            <div class="d-services-container d-development-services">
+
+                <a href="custom-web-development.html" class="d-services-service-wrapper">
+    
+                    <p class="d-services-service">Custom Web Design</p>
+                    <span class="d-arrow"> &#8599;</span>
+    
+                    <div class="card-container">
+                        <img src="./img/our-services/development-vector-4.svg" class="card" alt="Dynamic Website">
+                    </div>
+                </a>
+
+
+                <a href="ecommerce-web-design.html" class="d-services-service-wrapper">
+    
+                    <p class="d-services-service">E-Commerce</p>
+                    <span class="d-arrow"> &#8599;</span>
+    
+                    <div class="card-container">
+                        <img src="./img/our-services/development-vector-1.svg" class="card" alt="E-Commerce">
+                    </div>
+                </a>
+                
+                
+                <a class="d-services-service-wrapper">
+    
+                    <p class="d-services-service">SAAS</p>
+                    <span class="d-arrow"> &#8599;</span>
+    
+                    <div class="card-container">
+                        <img src="./img/our-services/development-vector-2.svg" alt="SAAS" class="card">
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="d-services-container d-digital-marketing-services">
+
+                <a href="pages/seo.html" class="d-services-service-wrapper">
+    
+                    <p class="d-services-service" id="yellow-dot">SEO Strategy</p>
+                    <span class="d-arrow" id="yellow-arrow"> &#8599;</span>
+    
+                    <div class="card-container">
+                        <img src="./img/our-services/seo-vector-1.svg" class="card" alt="SEO Strategy">
+                    </div>
+                </a>
+                
+    
+                <a href="pages/sem.html" class="d-services-service-wrapper">
+    
+                    <p class="d-services-service" id="yellow-dot">Search Engine Marketing</p>
+                    <span class="d-arrow" id="yellow-arrow"> &#8599;</span>
+    
+                    <div class="card-container">
+                        <img src="./img/our-services/seo-vector-1.svg" class="card" alt="Search Engine Marketing">
+                    </div>
+                </a>
+                
+
+                <a href="pages/ppc.html" class="d-services-service-wrapper">
+    
+                    <p class="d-services-service" id="yellow-dot">PPC</p>
+                    <span class="d-arrow" id="yellow-arrow"> &#8599;</span>
+    
+                    <div class="card-container">
+                        <img src="./img/our-services/seo-vector-1.svg" class="card" alt="PPC">
+                    </div>
+                </a>
+                
+    
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ||||||||||||||||||||||||
+    |||||||||||||||||||||||||||||
+             WHO WE ARE    
+    |||||||||||||||||||||||||||||
+    ||||||||||||||||||||||||||||| -->
+
+
+    <section class="who-we-are">
+
+        <div class="wrapper-2">
+
+            <h2 class="p-3-h">WHO WE ARE</h2>
+        
+            <div class="bar-container-1">
+
+                <div class="black-sidebar-1">''</div>
+
+                <p class="p-3">We are a group of creatives who specializes in solving web based problems, from designing to marketing if you want it you got it.</p>
+
+            </div>
+
+        </div>
+
+        <hr class="who-we-are-hr">
+        
+        <p class="p-4">From nerd cave to your screen – our team makes magic happen</p>
+
+        <img class="goup-doodle" src="img/home/group-doodle.svg" alt="">
+
+        <div class="who-we-are-d">
+
+            <p class="who-we-are-d-p">From Nerd Cave To Your Screen - We Make Magic Happen</p>
+
+            <img src="./img/home/group-doodle-desktop.svg" alt="group-pic" class="who-we-are-d-img">
+
+        </div>
+
+        <div class="wrapper-3">
+
+            <h2 class="p-5-h">WHAT WE DO ?</h2>
+
+            <div class="bar-container-2">
+
+                <div class="black-sidebar-2">''</div>
+        
+                <p class="p-5">At our company, we are passionate about bringing the latest in modern web development to our clients! Our mission is to stay on top of web design trends by using cutting-edge tools like AI and Machine Learning. We take pride in creating fast and impressive websites that look great on any device. Let us help you show off your special style with a custom solution that's perfect for you!</p>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ||||||||||||||||||||||
+    |||||||||||||||||||||||||||
+            Our Clients 
+    |||||||||||||||||||||||||||
+    ||||||||||||||||||||||||||| -->
+        
+    <section class="clients">
+        <div class="bgcnt">
+            <div class="logo_stripe">
+                <div class="logo_cnt">
+                    <div class="clients_logo">
+                        <img src="./img/our-clients/clients.png" alt="Vaastu arc" title="Vaastu-arcs" id="vaastu">
+                    </div>
+                    <div class="clients_logo">
+                        <img src="./img/our-clients/clients.png" alt="Vaastu arc" title="Vaastu-arcs" id="vaastu">
+                    </div>
+                </div>
+            </div>
+
+            <div class="wave_div">
+                <img class="wave_svg" src="./img/our-clients/First_wave.svg" alt="wave">
+                <img class="wave_svg" src="./img/our-clients/Second_wave.svg" alt="wave">
+                <img class="wave_svg" src="./img/our-clients/third_wave.svg" alt="wave">
+                <img class="wave_svg" src="./img/our-clients/lowest_wave.svg" alt="wave">
+            </div>
+
+            <div class="d-wave_div">
+                <img class="d-wave-svg d-wave-1" src="./img/our-clients/d-First_wave.svg" alt="wave">
+                <img class="d-wave-svg d-wave-2" src="./img/our-clients/d-Second_wave.svg" alt="wave">
+                <img class="d-wave-svg d-wave-3" src="./img/our-clients/d-third_wave.svg" alt="wave">
+                <img class="d-wave-svg d-wave-4" src="./img/our-clients/d-lowest_wave.svg" alt="wave">
+            </div>
+            <img class="plane-svg" src="./img/our-clients/plane.png" alt="Plane">
+            <img class="d-plane-svg" src="./img/our-clients/desktop-plane.svg" alt="Plane">
+        </div>
+    </section>
+
+    <!-- ///////////////////////
+    ////////////////////////////
+    CREATE YOUR STORY WITH US
+    ////////////////////////////
+    ////////////////////////// -->
+        
+    <section class="create-your-story" id="projects">
+
+        <div class="wrapper-4">
+
+            <p class="p-6-h">
+                CREATE YOUR 
+                <span class="p-6-h-s">
+                    STORY WITH US              
+                </span>
+            </p>
+
+        <div class="bar-container-3">
+
+                <div class="black-sidebar-3">''</div>
+
+                <p class="p-6">We create designs that perfectly fit your brand's personality and ensure visitors flock to your online presence. We handle everything from style to strategy, making your brand shine.</p>
+
+            </div>
+
+        </div>
+
+        <div class="picture-gallery">
+
+            <p>
+                <a href="https://vaastuarcs.in/" target="_blank">VAASTUARCS 2023</a>
+            </p>
+
+        </div>
+
+        <div class="d-pic-gal">
+
+            <a href="https://vaastuarcs.in/">
+                <div class="pic">
+                    <img class="vaastuarc" src="./img/create-yswu/vaastuarcs.png" alt="click to checkout">
+                    <div class="pic-info-cnt">
+                        <p class="d-pic-p1">VAASTUARCS</p>
+                        <p class="d-pic-p2">2023</p>
+                    </div>
+                </div>
+            </a>
+
+                <div class="pic">
+                    <img class="lms" src="./img/create-yswu/LMS.png" alt="click to checkout">
+                    <div class="pic-info-cnt">
+                        <p class="d-pic-p1">LMS</p>
+                        <p class="d-pic-p2">Coming Soon....</p>
+                    </div>
+                </div>
+
+                <div class="pic">
+                    <img class="heaven-guide" src="./img/create-yswu/heaven_guide.png" alt="click to checkout">
+                    <div class="pic-info-cnt">
+                        <p class="d-pic-p1">HEAVEN<br>GUIDE</p>
+                        <p class="the-span">A guide that fits your status.<br>A project by digitcrib</p>
+                        <p class="d-pic-p2">Coming Soon....</p>
+                    </div>
+                </div>
+
+        </div>
+
+    </section>
+
+    <!--///////////////////////
+    ///////////////////////////
+    THINK BEYOND THE WAVES
+    //////////////////////////
+    //////////////////////-->
+
+    <section class="think-beyond-the-waves" id="contact">
+
+        <div class="d-below-stripe">
+            <div class="d-p-cnt">
+                <div class="d-stripe-1">
+                    <p>share your story with us</p>
+                    <p>share your story with us</p>
+                    <p>share your story with us</p>
+                </div>
+                <div class="d-stripe-1">
+                    <p>share your story with us</p>
+                    <p>share your story with us</p>
+                    <p>share your story with us</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-box-1">
+
+            <p class="tbtw-p-1">
+                Think beyond the waves
+            </p>
+
+            <p class="tbtw-p-2">
+                Ask about DigitCrib products, pricing, implementation, or anything else, Our team is standing by ready to help
+            </p>
+
+            <a class="lets-talk-bt">
+                <img src="img/home/lets-talk.svg" alt="Lets Talk">
+            </a>
+
+
+        </div>
+
+        <div class="container-box-2">
+
+            <div class="social-buttons">
+
+                <a href="https://instagram.com/digitcrib/" target="_blank">
+                    <img src="img/footer/instagram-line.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/company/digitcrib/" target="_blank">
+                    <img src="img/footer/linkedin-fill.svg" alt="">
+                </a>
+                <a href="https://twitter.com/digitcrib/" target="_blank">
+                    <img src="img/footer/twitter-fill.svg" alt="">
+                </a>
+
+            </div>
+
+            <div>
+
+                <p class="tbtw-p-3">
+                    DIGITCRIB
+                </p>
+
+                <p class="tbtw-p-4">
+                    We built an elegant solution. Our team created a fully integrated website solution for vaastuarcs
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+</div>
+
+<footer>
+    
+    <p class="imprint">Imprint</p>
+    
+    <p class="copywrite">Copyright &copy; 2023 DigitCrib. All rights reserved</p>
+    
+    <p><a href="pages/privacy_policy.html">Privacy</a></p>
+    
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+    
+</body>
+</html>
